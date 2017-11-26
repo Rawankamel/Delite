@@ -8,102 +8,15 @@
     tools:context="com.fci.delite.Menu_desrt">
 
     <ImageButton
-        android:id="@+id/imageButton30"
-        android:layout_width="345dp"
-        android:layout_height="79dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="277dp" />
-
-    <EditText
-        android:id="@+id/editText21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="juic1"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="350dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton31"
-        android:layout_width="345dp"
-        android:layout_height="79dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="393dp" />
-
-    <EditText
-        android:id="@+id/editText22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="juic1"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="350dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton32"
-        android:layout_width="345dp"
-        android:layout_height="79dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
-
-    <EditText
-        android:id="@+id/editText23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="juic1"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="99dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton33"
-        android:layout_width="345dp"
-        android:layout_height="79dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
-
-    <EditText
-        android:id="@+id/editText24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="juic1"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="99dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton34"
-        android:layout_width="345dp"
-        android:layout_height="79dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
-
-    <EditText
-        android:id="@+id/editText25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="juic1"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="99dp" />
-
-    <ImageButton
         android:id="@+id/imageButton35"
         android:layout_width="345dp"
         android:layout_height="79dp"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
+        tools:layout_editor_absoluteY="13dp"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/editText26"
@@ -113,7 +26,9 @@
         android:inputType="textPersonName"
         android:text="dws1"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteY="99dp"
+        android:layout_above="@+id/imageButton37"
+        android:layout_alignStart="@+id/editText27" />
 
     <ImageButton
         android:id="@+id/imageButton36"
@@ -121,7 +36,10 @@
         android:layout_height="79dp"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="156dp" />
+        tools:layout_editor_absoluteY="156dp"
+        android:layout_above="@+id/editText26"
+        android:layout_alignStart="@+id/imageButton37"
+        android:layout_alignEnd="@+id/imageButton37" />
 
     <EditText
         android:id="@+id/editText27"
@@ -131,7 +49,9 @@
         android:inputType="textPersonName"
         android:text="juic1"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="234dp" />
+        tools:layout_editor_absoluteY="234dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editText28" />
 
     <ImageButton
         android:id="@+id/imageButton37"
@@ -139,7 +59,9 @@
         android:layout_height="79dp"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="156dp" />
+        tools:layout_editor_absoluteY="156dp"
+        android:layout_above="@+id/editText27"
+        android:layout_alignStart="@+id/imageButton38" />
 
     <EditText
         android:id="@+id/editText28"
@@ -149,7 +71,11 @@
         android:inputType="textPersonName"
         android:text="juic1"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="234dp" />
+        tools:layout_editor_absoluteY="234dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/imageButton35"
+
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:id="@+id/imageButton38"
@@ -157,5 +83,8 @@
         android:layout_height="79dp"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="277dp" />
+        tools:layout_editor_absoluteY="277dp"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/imageButton35"
+        android:layout_alignStart="@+id/imageButton35" />
 </RelativeLayout>

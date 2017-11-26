@@ -1,45 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fci.delite.Order">
+    tools:context="com.fci.delite.Menu">
 
     <EditText
         android:id="@+id/editText29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="243dp"
+        android:layout_height="51dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="username"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText30" />
 
     <EditText
         android:id="@+id/editText30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Pass"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="192dp" />
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:layout_below="@+id/editText29"
+        android:layout_alignStart="@+id/editText29"
+        android:layout_marginStart="11dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign In"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="379dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignStart="@+id/editText30" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGN UP"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="303dp" />
-</RelativeLayout>
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="379dp"
+        android:layout_below="@+id/editText30"
+        android:layout_toEndOf="@+id/editText30"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="68dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@+id/editText29"
+        android:layout_marginEnd="17dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="25dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="      Password"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="257dp" />
+</android.support.constraint.ConstraintLayout>
