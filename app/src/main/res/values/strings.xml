@@ -11,4 +11,10 @@
     <string name="Menu">Menu</string>
     <string name="Order">Order</string>
     <string name="About">About</string>
+
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+
 </resources>
