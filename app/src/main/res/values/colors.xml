@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#eea441</color>
+    <color name="colorPrimaryDark">#111111</color>
     <color name="colorAccent">#FF4081</color>
+
+
+
+    <!---dot active -->
+    <color name="dot_active">#000000</color>
+<!--dot not active-->
+    <color name="dot_inactive">#eea441</color>
+
 </resources>
