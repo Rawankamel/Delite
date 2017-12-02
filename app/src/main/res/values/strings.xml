@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Delite</string>
+    <string name="title_activity_quick_nav">QuickNav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
