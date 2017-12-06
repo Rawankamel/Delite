@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "171115948914",
+    "firebase_url": "https://delite-9c8a5.firebaseio.com",
+    "project_id": "delite-9c8a5",
+    "storage_bucket": "delite-9c8a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171115948914:android:c8a188524b2d79a0",
+        "android_client_info": {
+          "package_name": "com.fci.delite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171115948914-7mbvdmftelskud9femkvfuo9imnm383v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fci.delite",
+            "certificate_hash": "9c9af1224ceeadfb7b77fce1fb61acd365466620"
+          }
+        },
+        {
+          "client_id": "171115948914-c036d2r3rh38sc5b0vf7s6scq60hecle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAdeFM1CmrvVjl_iXYckyt-ejrD01HXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171115948914-c036d2r3rh38sc5b0vf7s6scq60hecle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
