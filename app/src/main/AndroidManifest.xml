@@ -15,15 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main"
-            />
+        <activity android:name=".Main" />
         <activity android:name=".Order" />
         <activity android:name=".menu_jc" />
         <activity android:name=".Menu_desrt" />
         <activity android:name=".OrderSignup" />
         <activity android:name=".OrderOrders" />
         <activity android:name=".OrderConfirmation" />
-
+        <activity android:name=".SignU" />
+        <activity android:name=".SignIn"></activity>
     </application>
 
 </manifest>
