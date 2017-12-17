@@ -18,8 +18,7 @@ import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class SignIn extends AppCompatActivity {
 
-    EditText editPhone;
-    EditText editPassword ;
+    EditText editPhone,editPassword ;
     Button btnSignIn;
 
     @Override
@@ -27,8 +26,8 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        editPhone =(EditText)findViewById(R.id.editPhone);
-        editPassword =(EditText)findViewById(R.id.editPassword);
+        editPhone =(MaterialEditText)findViewById(R.id.editPhone);
+        editPassword =(MaterialEditText)findViewById(R.id.editPassword);
         btnSignIn =(Button)findViewById(R.id.btnSignIn);
 
         //init firebase

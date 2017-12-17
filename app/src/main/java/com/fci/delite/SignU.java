@@ -17,19 +17,18 @@ import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class SignU extends AppCompatActivity {
-    EditText editPhone,editName,editPassword,editEmail,editAddress;
+    MaterialEditText editPhone,editName,editPassword,editEmail,editAddress;
     Button btnSignUp;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_u);
 
-        editName=(EditText)findViewById(R.id.editName);
-        editPassword=(EditText)findViewById(R.id.editPassword);
-        editEmail=(EditText)findViewById(R.id.editEmail);
-        editPhone=(EditText)findViewById(R.id.editPhone);
-        editAddress=(EditText)findViewById(R.id.editAddress);
+        editName=(MaterialEditText)findViewById(R.id.editName);
+        editPassword=(MaterialEditText)findViewById(R.id.editPassword);
+        editEmail=(MaterialEditText)findViewById(R.id.editEmail);
+        editPhone=(MaterialEditText)findViewById(R.id.editPhone);
+        editAddress=(MaterialEditText)findViewById(R.id.editAddress);
 
         btnSignUp =(Button)findViewById(R.id.btnSignUp);
 

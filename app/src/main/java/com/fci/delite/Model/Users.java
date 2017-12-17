@@ -5,13 +5,22 @@ package com.fci.delite.Model;
  */
 
 public class Users {
+    private static Users account;
     private String Name;
     private String Password;
     private String Address;
     private String Email;
 
 
-    public Users() {
+    protected Users() {
+    }
+
+    public static Users Account(){
+        if(account==null)
+        {
+            account=new Users();
+        }
+        return account;
     }
 
     public Users(String name, String password, String address, String email) {

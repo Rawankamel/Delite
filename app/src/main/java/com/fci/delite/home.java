@@ -26,7 +26,7 @@ public class home extends AppCompatActivity {
             @Override
             public void run()
             {
-                Intent homeIntent=new Intent(home.this,Main.class);
+                Intent homeIntent=new Intent(home.this,SignU.class);
                 startActivity(homeIntent);
                 finish();
             }
