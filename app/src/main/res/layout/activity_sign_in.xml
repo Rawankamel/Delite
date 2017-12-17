@@ -30,22 +30,28 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textView8"
                 android:layout_width="100dp"
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:paddingLeft="20dp"
-                android:text="Email"
-                android:textColor="@color/colorPrimaryDark" />
+                android:text="Phone Number"
+                android:textColor="@color/colorPrimaryDark"
+
+
+                />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/editPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textEmailAddress" />
+                android:inputType="phone"
+                android:paddingTop="5dp"
+                android:text="01012121212"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -63,18 +69,20 @@
                 android:textColor="@color/colorPrimaryDark" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:text="123"
+                />
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -106,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Sign in" />
+                android:text="Sign up" />
         </LinearLayout>
 
         <Button

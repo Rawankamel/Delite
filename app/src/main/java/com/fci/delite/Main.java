@@ -62,9 +62,7 @@ public class Main extends AppCompatActivity {
 
         layouts = new int[]
                 {
-                R.layout.slide1,
-                R.layout.slide2,
-                R.layout.slide3
+
                 };
 
         // adding bottom dots
