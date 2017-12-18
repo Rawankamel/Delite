@@ -11,11 +11,10 @@
     <dimen name="dots_top_margin">500dp</dimen>
 
 
-
-   <dimen name="img_width">100dp</dimen>
+    <dimen name="img_width">100dp</dimen>
     <dimen name="img_height">100dp</dimen>
 
     <dimen name="slide_dec">16sp</dimen>
-   <dimen name="decsc_pedding">40dp</dimen>
+    <dimen name="decsc_pedding">40dp</dimen>
 
 </resources>

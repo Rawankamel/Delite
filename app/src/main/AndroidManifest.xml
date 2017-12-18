@@ -23,7 +23,11 @@
         <activity android:name=".OrderOrders" />
         <activity android:name=".OrderConfirmation" />
         <activity android:name=".SignU" />
-        <activity android:name=".SignIn"></activity>
+        <activity android:name=".SignIn" />
+        <activity
+            android:name=".FoodMenuActivity"
+            android:label="@string/title_activity_food_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
